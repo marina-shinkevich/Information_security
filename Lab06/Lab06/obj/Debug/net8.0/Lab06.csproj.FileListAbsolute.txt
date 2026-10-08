@@ -1,0 +1,14 @@
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\bin\Debug\net8.0\Lab06.exe
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\bin\Debug\net8.0\Lab06.deps.json
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\bin\Debug\net8.0\Lab06.runtimeconfig.json
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\bin\Debug\net8.0\Lab06.dll
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\bin\Debug\net8.0\Lab06.pdb
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.GeneratedMSBuildEditorConfig.editorconfig
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.AssemblyInfoInputs.cache
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.AssemblyInfo.cs
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.csproj.CoreCompileInputs.cache
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.dll
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\refint\Lab06.dll
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.pdb
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\Lab06.genruntimeconfig.cache
+D:\3курс6сем\ИБ\лабы+отчеты\Lab06\Lab06\obj\Debug\net8.0\ref\Lab06.dll

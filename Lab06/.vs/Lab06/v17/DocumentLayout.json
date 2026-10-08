@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABEC2EE-3D1B-4437-BE90-2FEE0B53C0EA}|Lab06\\Lab06.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab06\\lab06\\enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ABEC2EE-3D1B-4437-BE90-2FEE0B53C0EA}|Lab06\\Lab06.csproj|solutionrelative:lab06\\enigma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABEC2EE-3D1B-4437-BE90-2FEE0B53C0EA}|Lab06\\Lab06.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab06\\lab06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ABEC2EE-3D1B-4437-BE90-2FEE0B53C0EA}|Lab06\\Lab06.csproj|solutionrelative:lab06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABEC2EE-3D1B-4437-BE90-2FEE0B53C0EA}|Lab06\\Lab06.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab06\\lab06\\enigmahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ABEC2EE-3D1B-4437-BE90-2FEE0B53C0EA}|Lab06\\Lab06.csproj|solutionrelative:lab06\\enigmahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\Lab06\\Program.cs",
+              "RelativeDocumentMoniker": "Lab06\\Program.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\Lab06\\Program.cs",
+              "RelativeToolTip": "Lab06\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:53:21.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnigmaHelper.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\Lab06\\EnigmaHelper.cs",
+              "RelativeDocumentMoniker": "Lab06\\EnigmaHelper.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\Lab06\\EnigmaHelper.cs",
+              "RelativeToolTip": "Lab06\\EnigmaHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:53:12.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enigma.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\Lab06\\Enigma.cs",
+              "RelativeDocumentMoniker": "Lab06\\Enigma.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab06\\Lab06\\Enigma.cs",
+              "RelativeToolTip": "Lab06\\Enigma.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwD8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:52:51.602Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

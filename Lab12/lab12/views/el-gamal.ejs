@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Lab12 - ЭЦП (Эль-Гамаль)</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <style>
+        /* Современная темная тема для криптографического проекта */
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding-bottom: 3rem;
+        }
+
+        /* Красивое меню навигации */
+        .nav-tabs-custom {
+            background: #1e293b;
+            padding: 0.5rem;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+        .nav-tabs-custom .nav-link {
+            color: #94a3b8;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            padding: 0.6rem 1.5rem;
+        }
+        .nav-tabs-custom .nav-link:hover {
+            color: #f8fafc;
+            background: #273549;
+        }
+        .nav-tabs-custom .nav-link.active {
+            color: #38bdf8;
+            background: #0f172a;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Стили заголовков и карточек */
+        .page-title {
+            font-weight: 700;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-text-fill-color: transparent;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .crypto-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #94a3b8;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Вывод системных данных (ключи, подписи, текст) */
+        .crypto-data {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            border-radius: 10px;
+            padding: 1rem;
+            font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.95rem;
+            color: #e2e8f0;
+            margin-bottom: 0;
+        }
+        
+        .key-highlight { color: #f472b6; }
+        .time-badge {
+            font-size: 0.75rem;
+            background: rgba(129, 140, 248, 0.15);
+            color: #c7d2fe;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            float: right;
+            font-family: initial;
+        }
+
+        /* Статусы верификации подписи */
+        .status-box {
+            padding: 1.25rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+        .status-success {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #34d399;
+        }
+        .status-danger {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #f87171;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-4" style="max-width: 800px;">
+
+    <ul class="nav nav-tabs-custom justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="/rsa">RSA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/el-gamal">Эль-Гамаля</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/schnorr">Шнорра</a>
+        </li>
+    </ul>
+
+    <h2 class="text-center page-title">Алгоритм Эль-Гамаля</h2>
+
+    <div class="crypto-card">
+        <div class="card-label">Оригинальное сообщение</div>
+        <div class="crypto-data text-info" style="font-family: inherit; font-weight: 500;">
+            <%= originalText %>
+        </div>
+    </div>
+
+    <div class="crypto-card">
+        <div class="card-label">Публичный ключ (p, g, y)</div>
+        <div class="crypto-data">
+            (<span class="key-highlight"><%= publicKey.p %></span>, 
+             <span class="key-highlight"><%= publicKey.g %></span>, 
+             <span class="key-highlight"><%= publicKey.y %></span>)
+        </div>
+    </div>
+
+    <div class="crypto-card">
+        <div class="card-label">
+            Цифровая подпись S = {a, b}
+            <span class="time-badge"><%= signTime %> мс</span>
+        </div>
+        <div class="crypto-data text-warning" style="word-break: break-all; word-wrap: break-word;">
+            <%= digitalSign %>
+        </div>
+    </div>
+
+    <div class="crypto-card">
+        <div class="card-label mb-3">
+            Верификация подписи
+            <span class="time-badge"><%= verificationTime %> мс</span>
+        </div>
+        
+        <% if (verified === true || verified === 'true' || verified === 'Да') { %>
+            <div class="status-box status-success">
+                <span class="mr-2">✓</span> Подпись достоверна! Данные в безопасности.
+            </div>
+        <% } else { %>
+            <div class="status-box status-danger">
+                <span class="mr-2">✕</span> Подпись недействительна или данные изменены!
+            </div>
+        <% } %>
+    </div>
+
+</div>
+</body>
+</html>

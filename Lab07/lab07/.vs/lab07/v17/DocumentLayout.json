@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab07\\lab07\\lab07\\cypher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|solutionrelative:lab07\\cypher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab07\\lab07\\lab07\\customdes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|solutionrelative:lab07\\customdes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab07\\lab07\\lab07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|solutionrelative:lab07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab07\\lab07\\lab07\\keys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|solutionrelative:lab07\\keys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|d:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0438\u0431\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\lab07\\lab07\\lab07\\cypherhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C4CD80-8566-4EFE-A1CE-2802642E824A}|lab07\\lab07.csproj|solutionrelative:lab07\\cypherhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\Program.cs",
+              "RelativeDocumentMoniker": "lab07\\Program.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\Program.cs",
+              "RelativeToolTip": "lab07\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:55:49.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Keys.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\Keys.cs",
+              "RelativeDocumentMoniker": "lab07\\Keys.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\Keys.cs",
+              "RelativeToolTip": "lab07\\Keys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:55:47.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CypherHelper.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\CypherHelper.cs",
+              "RelativeDocumentMoniker": "lab07\\CypherHelper.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\CypherHelper.cs",
+              "RelativeToolTip": "lab07\\CypherHelper.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:49:23.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cypher.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\Cypher.cs",
+              "RelativeDocumentMoniker": "lab07\\Cypher.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\Cypher.cs",
+              "RelativeToolTip": "lab07\\Cypher.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:49:14.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomDES.cs",
+              "DocumentMoniker": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\CustomDES.cs",
+              "RelativeDocumentMoniker": "lab07\\CustomDES.cs",
+              "ToolTip": "D:\\3\u043A\u0443\u0440\u04416\u0441\u0435\u043C\\\u0418\u0411\\\u043B\u0430\u0431\u044B\u002B\u043E\u0442\u0447\u0435\u0442\u044B\\Lab07\\lab07\\lab07\\CustomDES.cs",
+              "RelativeToolTip": "lab07\\CustomDES.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:22:41.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
